@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build --base ./",
-    "export": "slidev export --output ai_engineer_evolution.pdf",
-    "export-png": "slidev export --format png"
+    "export": "slidev export --output ai_engineer_evolution.pdf --per-slide --wait 2000 --timeout 60000",
+    "export-png": "slidev export --format png --wait 2000 --timeout 60000"
   },
   "dependencies": {
     "@slidev/cli": "^51.4.1",

@@ -819,12 +819,13 @@ layout: default
 
 ---
 layout: default
+class: mermaid-lg
 ---
 
 # <span class="gradient-text">18. Master Architecture Blueprint</span>
 ## Bản thiết kế Kiến trúc Toàn diện cho Hệ thống AI Hiện đại
 
-```mermaid {scale: 0.85}
+```mermaid {scale: 0.88}
 graph LR
     subgraph G1 ["1. Client & Governance"]
         USER(["User"]) --> PROD["Host App"]

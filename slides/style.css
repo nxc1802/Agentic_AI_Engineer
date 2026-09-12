@@ -19,23 +19,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #e2e8f0;
 }
 
-/* Custom Gradients */
+/* Heading Colors (Solid for flawless PDF export and web rendering) */
 .gradient-text {
-  background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38bdf8;
 }
 
 .gradient-text-emerald {
-  background: linear-gradient(135deg, #34d399 0%, #38bdf8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #34d399;
 }
 
 .gradient-text-amber {
-  background: linear-gradient(135deg, #fbbf24 0%, #f97316 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #fbbf24;
 }
 
 /* Glassmorphism Tech Card */
