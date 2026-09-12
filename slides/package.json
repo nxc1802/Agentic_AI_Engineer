@@ -1,0 +1,21 @@
+{
+  "name": "ai-engineer-slidev",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base ./",
+    "export": "slidev export --output ai_engineer_evolution.pdf",
+    "export-png": "slidev export --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.4.1",
+    "@slidev/theme-default": "latest",
+    "@iconify-json/carbon": "^1.2.5",
+    "@iconify-json/lucide": "^1.2.20",
+    "@iconify-json/ri": "^1.2.1"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.50.0"
+  }
+}
