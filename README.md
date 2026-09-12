@@ -56,7 +56,7 @@ npm run dev
 
 ## 📚 Nội dung chính trong Docs
 
-1. **[Graph Engineering](docs/Graph_Engineer.md)**: Xây dựng workflow phức tạp, State Machine, chu trình lặp (Feedback Loops), Human-in-the-loop và tự sửa lỗi (Self-reflection).
-2. **[MCP (Model Context Protocol)](docs/MCP.md)**: Kiến trúc kết nối mở giữa LLM và các hệ thống dữ liệu / công cụ bên ngoài theo tiêu chuẩn mở của Anthropic.
-3. **[RAG (Retrieval-Augmented Generation)](docs/RAG.md)**: Chiến lược phân tách (chunking), embedding, hybrid search, reranking và truy vấn đa nguồn.
-4. **[Skill Engineering](docs/Skill.md)**: Đóng gói năng lực tác vụ, function calling, tool use và guardrails.
+1. **[Graph Engineering & LangGraph](docs/Graph_Engineer.md)**: Xây dựng workflow phức tạp, State Machine, chu trình lặp (Feedback Loops), Human-in-the-loop, Graph-Agent Memory (Short-Term & Long-Term) và Study Case triển khai thực tế bằng **LangGraph**.
+2. **[MCP (Model Context Protocol)](docs/MCP.md)**: Kiến trúc kết nối mở giữa LLM và các hệ thống dữ liệu / công cụ bên ngoài theo tiêu chuẩn mở của Anthropic (Stateless HTTP, Tasks, Gateway & Tool Retrieval).
+3. **[RAG (Retrieval-Augmented Generation)](docs/RAG.md)**: Chiến lược phân tách (chunking), embedding, hybrid search, reranking, SOTA spectrum (CRAG, GraphRAG) và RAG Triad evaluation.
+4. **[Skill Engineering](docs/Skill.md)**: Đóng gói năng lực tác vụ theo chuẩn SOP, dynamic activation, tool use và guardrails.

@@ -136,6 +136,23 @@ tr:hover td {
   background: rgba(56, 189, 248, 0.05);
 }
 
+/* Compact Table */
+.compact-table table {
+  font-size: 0.68rem !important;
+  margin: 0.2rem 0 !important;
+  line-height: 1.25 !important;
+}
+
+.compact-table th {
+  padding: 0.25rem 0.5rem !important;
+  font-size: 0.7rem !important;
+}
+
+.compact-table td {
+  padding: 0.22rem 0.5rem !important;
+  font-size: 0.68rem !important;
+}
+
 /* Code block polish */
 .slidev-code {
   font-family: var(--slidev-code-font) !important;
